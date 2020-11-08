@@ -1,1 +1,38 @@
-//head file
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This site is about Walmarts groceries">
+    <meta name="keywords" content="Walmart, Grocery, Products">
+    <meta name="author" content="Isabella Sebastian">
+    <meta name="generator" content="Brackets">
+    <title>Walmart - Home</title>
+
+    <!--  =================== Insert the Favicon =========================== -->
+    <link rel="shortcut icon" href="../images/favicon.png"/>
+                              
+          
+          
+    
+
+    <!--  =================== Bootstrap core CSS =========================== -->
+    <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- ===================== Custom styles for this template ============ -->
+    <link href="../styles/styles.css" rel="stylesheet">
+    
+    <!-- ===================== Fonts  ==================================== -->
+      <!-- Don't do both font methods. Choose one option -->
+      
+      
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+      <!-- ===================== Custom styles for this page only ============ -->
+      <style> 
+          h1{
+              padding-left:25px;
+              
+          }
+      </style>
+    
+  </head>
