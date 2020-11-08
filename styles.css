@@ -1,0 +1,119 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+footer {
+    padding-left: 25px; 
+    margin-top: 15px;
+    color: black; 
+    background-color: #C5D6E3!important;
+    font-family: sans-serif
+    font-size: 16pt; 
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: black; 
+}
+
+hr {
+    border-top: thin solid #add8e6 ; 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto; 
+    
+    
+}
+
+.jumbotron {
+    background-image: url("../images/walmartBackground.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;  
+    margin-top:  18px;  
+    background-color: #243B7B;  /* blue */  /*#ECEFF1*/
+    opacity: 1;
+    height: 300px;
+    text-align: left;
+}
+
+
+.jumbotron > .container {
+    background-color: transparent;
+} 
+
+
+
+/*  =============== Jumbotron Heading 2  ==========================  */
+    .jumbotron > .container > .display-3 {
+        color: white;
+        font-family: "Clicker Script", inherit; 
+    }
+.jumbotron > .container > p > .btn-primary {
+    color: #fff;
+    background-color: #A3A8AC;
+    border-color: #5EAEE6;
+    color: white;
+} 
+.jumbotron > .container > p > .btn-primary:hover {
+    color: #fff;
+    background-color: #5EAEE6;
+    border-color: #5EAEE6;
+    color: white;
+}
+
+/*  ====================================================================== */
+/*  ============== Customize the navigation bar ======================= */
+nav {
+    background-color: white; /* White */
+}
+/*  ============ override the bg-dark ============ */
+.bg-dark {
+    background-color: #5EAEE6!important; /* Green */
+}
+/* Dropdown selected item hover style */
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: hsl(57, 100%, 68%);
+    color: black;
+}
+/* Search Button */
+.btn-outline-success {
+    color: black;
+    border-color: white;
+    background-color: white;
+} 
+    .btn-outline-success:hover {
+        background-color: white;
+        color: black!important;
+        border-color: darkslategrey;
+    }  
+
+/*  ====================================================================== */
+/*  ========================== Pottery Rows ================================== */
+/* Center the images */
+.mycenter {
+    text-align: center;
+} 
+/* Header text */
+.row > div > h2.rowheader  {
+    font-family: Impact;
+    font-size: 24pt;
+    color: darkslategray; /* purple #7843e9*/
+}
+hr~ h2:first-of-type { /*:first-of-type*/
+    font-family: Impact;
+    font-size: 24pt;
+    color: #f85f12; /* orange */
+}  
+
+div > div.col-md-6 > h2 ~ h3::first-letter {
+    color: blue; /* blue */
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Segoe Script';
