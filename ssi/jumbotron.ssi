@@ -1,0 +1,12 @@
+<!-- ===========  JUMBOTRON =========== -->
+    <div class="jumbotron">
+            <div class="container">
+                
+                <h2 class="display-3">Walmart</h2>
+                 
+                <p style = "color: white;" >Save money, live better...Walmart</p>
+                
+            
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Shop Groceries Now! &raquo;</a></p>
+            </div>
+          </div> 
