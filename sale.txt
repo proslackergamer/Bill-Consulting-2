@@ -1,0 +1,20 @@
+<img src="../images/scone.jpg" alt="Scone" width ="200px" height ="250px">
+Scones
+Blueberry, Raspberry and Apple Scones
+$1.50 each or 6 for $8
+<img src="../images/muffin.jpg" alt="Scone" width ="200px" height ="250px">
+Muffins
+Lemon Poppy Seed and Blueberry
+$1.75 each or 12 for $9
+<img src="../images/cake.jpg" alt="Scone" width ="200px" height ="250px">
+Cakes
+Chocolate, Vanilla and Red Velvet
+$5.00 each
+<img src="../images/brownie1.jpg" alt="Scone" width ="200px" height ="250px">
+Brownies
+With Chocolate Chips or Walnuts
+8 for $6.00
+<img src="../images/strudel.jpg" alt="Scone" width ="200px" height ="250px">
+Strudel
+Apple, Cherry, Apricot or Plum
+$1.00 each or 3 for $2.50
