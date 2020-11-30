@@ -30,53 +30,54 @@
                     <div class="caption">
                         <h3 class="mycenter">Please fill out the following information</h3>
                         
-                        <form>
+                        <form action = "processregistration.php" method = "post">
+                            
                             <label for = "inputFirst" class = "sr-only" style = "box-sizing: border-box; padding: 10px">First name</label>
-                            <input type = "text" id = "inputFirst" placeholder = "First Name" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "text" name = "inputFirst" placeholder = "First Name" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
                             
                             
                             <label for = "inputLast" class = "sr-only" style = "box-sizing: border-box; padding: 10px">Last Name</label>
-                            <input type = "text" id = "inputLast" placeholder = "Last Name" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "text" name = "inputLast" placeholder = "Last Name" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
                             
                             <label for = "inputAddress" class = "sr-only" style = "box-sizing: border-box; padding: 10px">Address Line 1</label>
-                            <input type = "text" id = "inputAddress" placeholder = "Address Line 1" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "text" name = "inputAddress" placeholder = "Address Line 1" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
                             
                             <label for = "inputCity" class = "sr-only" style = "box-sizing: border-box; padding: 10px">City</label>
-                            <input type = "text" id = "inputCity" placeholder = "City" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "text" name = "inputCity" placeholder = "City" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
                             
                             <label for = "inputApt" class = "sr-only" style = "box-sizing: border-box; padding: 10px">Apt Num</label>
-                            <input type = "text" id = "inputApt" placeholder = "Apartment Number" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "text" name = "inputApt" placeholder = "Apartment Number" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
                         
                             <label for = "inputState" class = "sr-only" style = "box-sizing: border-box; padding: 10px">State</label>
-                            <input type = "text" id = "inputState" placeholder = "State/Province/Region" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "text" name = "inputState" placeholder = "State/Province/Region" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                 
                             
                             <label for = "inputZip" class = "sr-only" style = "box-sizing: border-box; padding: 10px">Zip</label>
-                            <input type = "number" id = "inputZip" placeholder = "Zip Code" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "number" name = "inputZip" placeholder = "Zip Code" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
                             
                             <label for = "inputPhone" class = "sr-only" style = "box-sizing: border-box; padding: 10px">Phone</label>
-                            <input type = "number" id = "inputPhone" placeholder = "Phone Number" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "number" name = "inputPhone" placeholder = "Phone Number" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
                             <label for = "inputEmail" class = "sr-only" style = "box-sizing: border-box; padding: 10px">Email</label>
-                            <input type = "email" id = "inputEmail" placeholder = "Email Address" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "email" name = "inputEmail" placeholder = "Email Address" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
                             <label for = "inputPassword" class = "sr-only" style = "box-sizing: border-box; padding: 10px">Password</label>
-                            <input type = "password" id = "inputPassword" placeholder = "Create Password" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
+                            <input type = "password" name = "inputPassword" placeholder = "Create Password" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
-                            
+                            <input type = "submit">
                             
                         </form>
-                        <p>
+                        <!--<p>
                             <br>
                             <a href="#" class="btn btn-primary" role="button">Create Account Now >></a>
                             
-                        </p>
+                        </p>-->
                     </div>
                 </div>
               </div>
