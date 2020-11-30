@@ -2,6 +2,13 @@
 <html lang="en">
   <head>
     <?php include '../ssi/head.ssi'; ?>  
+      <!-- ===================== Custom styles for this page only ============ -->
+      <style> 
+          h1{
+              padding-left:25px;
+              
+          }
+      </style>
   </head>
   <body>
       
