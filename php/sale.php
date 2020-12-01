@@ -1,8 +1,13 @@
 <!doctype html>
 <html lang="en">
+    <head>
+         <?php include '../ssi/head.ssi'; ?>  
+        
+        <style> 
 
-    <?php include '../ssi/head.ssi'; ?>  
-  
+      </style>
+    </head>
+    
     <body>
       
       <!-- ==========================  TOP MENU =========================== -->
@@ -15,7 +20,7 @@
        <!-- ============== Main Container ====================== --> 
           <div class="container">
               <h1>Sale</h1>
-              <div class="row">
+              <div style="text-align: center" class="row">
                     <div class="col-sm-4">
             <?php
               $target_dir = '../files/'; 
