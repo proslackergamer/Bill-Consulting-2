@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
- <?php include '../ssi/head.ssi'; ?>  
+    
+    <head>
+         <?php include '../ssi/head.ssi'; ?>  
+        
+        <style> 
+
+      </style>
+    </head>
+
   <body>
       
       <!-- ==========================  TOP MENU =========================== -->
@@ -9,15 +17,14 @@
      <main role="main">
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
-            <div class="container">
+  <?php include '../ssi/jumbotron.ssi'; ?> 
+            
+      
+   <!----------------------  Display Error Message------------------------->
+      <div class="container">
+          <h2 class="display-3">Uh Oh :(</h2>
+          <h4>Sorry there has been an error</h4>
 
-                <h2 class="display-3">Uh Oh :(</h2>
-
-                <h3 style = "color: white;" >Sorry there has been an error</h3>
-
-
-    </div>
   </div>
 
   
