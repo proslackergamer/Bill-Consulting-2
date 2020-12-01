@@ -1,4 +1,3 @@
- <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="This site is about Walmarts groceries">
@@ -25,14 +24,3 @@
       
       
       <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-
-      <!-- ===================== Custom styles for this page only ============ -->
-      <style> 
-          h1{
-              padding-left:25px;
-              
-          }
-      </style>
-    
-  </head>
