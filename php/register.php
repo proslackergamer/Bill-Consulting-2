@@ -23,15 +23,16 @@
        <!-- ============== Main Container ====================== --> 
           <div class="container">
             <!-- ==============  Row 2 ============================= -->
-            
+            <div class = "row">
               <div class="col-md-12">
-                 <div class="thumbnail">
+                 <!--<div class="thumbnail">-->
                     
-                    <div class="caption">
-                        <h3 class="mycenter">Please fill out the following information</h3>
-                        
-                        <form action = "processregistration.php" method = "post">
+                    <!--<div class="col-md-12">-->
+                        <form action = "processregistration.php" method = "post" class = "form-signin">
                             
+                        <h1 style="text-align:center;">Please fill out the following information: </h1>
+                        <p style = "text-align:center;">
+                        
                             <label for = "inputFirst" class = "sr-only" style = "box-sizing: border-box; padding: 10px">First name</label>
                             <input type = "text" name = "inputFirst" placeholder = "First Name" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
@@ -70,21 +71,17 @@
                             <label for = "inputPassword" class = "sr-only" style = "box-sizing: border-box; padding: 10px">Password</label>
                             <input type = "password" name = "inputPassword" placeholder = "Create Password" required style = "margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br><br>
                             
-                            <input type = "submit">
+                            <button class="btn btn-lg btn-primary" type="submit">Register</button>
+                            </p>
                             
                         </form>
-                        <!--<p>
-                            <br>
-                            <a href="#" class="btn btn-primary" role="button">Create Account Now >></a>
-                            
-                        </p>-->
+                       
                     </div>
                 </div>
               </div>
+     
               
-              </div>
-              
-           
+            
             </main>
            <!-- ====================================================== -->
            <!-- =================  Row 2 =================================== -->
