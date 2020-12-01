@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
-  <?php include '../ssi/head.ssi'; ?>  
+    <head>
+         <?php include '../ssi/head.ssi'; ?>  
+        
+        <style> 
+
+      </style>
+    </head>
   <body>
       
       <!-- ==========================  TOP MENU =========================== -->
@@ -12,9 +18,10 @@
            <?php include '../ssi/jumbotron.ssi'; ?> 
        <!-- ============== Main Container ====================== --> 
           <div class="container">
-            <!-- ==============  Row 2 ============================= -->
+            <!-- ============== Title ============================= -->
               <h1>Pastries</h1>
             <div class="row">
+        <!-- ============== Item 1 ============================= -->
               <div class="col-md-4">
                  <div class="thumbnail">
                     <p class="mycenter"><img class="mycenter" src="../images/cookies.jpg" alt="..." width="260" height="240"></p>
@@ -26,6 +33,7 @@
                     </div>
                 </div>
               </div>
+                <!-- ============== Item 2 ============================= -->
               <div class="col-md-4">
                 <div class="thumbnail" >
                     <p class="mycenter"><img src="../images/cupcakes.jpg" alt="..."width="260" height="240"></p>
@@ -36,6 +44,7 @@
                     </div>
                 </div>
               </div>
+                <!-- ============== Item 3============================= -->
               <div class="col-md-4">
                  <div class="thumbnail">
                     <p class="mycenter"><img src="../images/donuts.jpg" alt="..."width="260" height="240"></p>
@@ -45,22 +54,11 @@
                            <p class = "mycenter">$5.99 per dozen</p> 
                         
                         
-                            
-                        
                     </div>
                 </div>
              </div>
             </div>
-            <hr>
-           <!-- ====================================================== -->
-           <!-- =================  Row 2 =================================== -->
-         <div class="row">
-            <div class="col-md-6">
-               
-            </div>
-        </div>
-            <hr> 
-          </div> <!-- /container --> 
+          </div> 
         </main>
 
       <!-- ==========================  FOOTER ============================= --> 
