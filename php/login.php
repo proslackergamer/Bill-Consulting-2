@@ -1,10 +1,13 @@
-<!-- This page will eventually allow users to log into the web site -->
-<!-- ============================ Code for Login Page ============================ -->
+<!-- ================== This page allows users to log into the web site ==================== -->
+<!-- ============================ SSI/PHP Code for Login Page ============================ -->
 <!doctype html>
 <html lang="en">
   <head>
-<?php include '../ssi/head.ssi'; ?>
-
+    <?php include '../ssi/head.ssi'; ?>
+    <title>Walmart Login</title>
+      
+      
+<!-- =========================== Styles for this specific page ================================= -->
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -22,21 +25,21 @@
       }     
     </style>
   </head>
-    <?php include '../ssi/nav.ssi'; ?> 
+    
+
+<body>      
+  <!-- ====================================== MENU =================================================== -->
+  <?php include '../ssi/nav.ssi'; ?>
+      
       
       <!-- ==================================== Content ========================================== -->
       <main>
-      <body>
         <!-- ==========================  JUMBOTRON ====================== -->
         <!-- ======Main jumbotron for primary marketing message ============ -->
-          <div class="jumbotron">
-            <div class="container">
-              <h1 class="display-3">Login</h1>
-            </div>
-          </div> 
+          <?php include '../ssi/jumbotron.ssi'; ?>
           
        
-        <form class="form-login">                
+        <form class="form-login" action="../ssi/loginProcess.php" method="post">                
           <div class="container">
               <div class="col-md-12">
                  <div class="thumbnail">
@@ -65,7 +68,12 @@
               </div>
           </div>
         </form>
-        </body>
       </main>
-    <?php include '../ssi/footer.ssi'; ?> 
+      
+      
+      
+      <!-- ========================================  Footer ===================================================== --> 
+      <?php include '../ssi/footer.ssi'; ?>
+    
+</body>    
 </html>
