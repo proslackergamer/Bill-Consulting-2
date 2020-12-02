@@ -39,7 +39,7 @@
           <?php include '../ssi/jumbotron.ssi'; ?>
           
        
-        <form class="form-login" action="../ssi/loginProcess.php" method="post">                
+        <form class="form-login" action="processLogin.php" method="post">                
           <div class="container">
               <div class="col-md-12">
                  <div class="thumbnail">
