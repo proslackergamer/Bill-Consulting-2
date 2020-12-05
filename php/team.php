@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title> Walmart - Our Team</title>
     <?php include '../ssi/head.ssi'; ?> 
     <!-- Styles for this page only -->
     <style>
@@ -26,9 +27,11 @@
     }  
     
     </style>
-</head>
-    <!-- =============== Load an external font =================== -->
+    
+        <!-- =============== Load an external font =================== -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    
+</head>
 
 <!-- =============== BODY SECTION =================== --> 
 <body>
