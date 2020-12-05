@@ -24,7 +24,7 @@
         <!-- ============== Item 1 ============================= -->
               <div class="col-md-4">
                  <div class="thumbnail">
-                    <p class="mycenter"><img class="mycenter" src="../images/cookies.jpg" alt="..." width="260" height="240"></p>
+                    <p class="mycenter"><img class="mycenter" src="../images/cookies.jpg" alt="Picture of Delicious Cookies" width="260" height="240"></p>
                     <div class="caption">
                         <h3 class="mycenter">Cookies </h3>
                         <p class = "mycenter">Package of 20</p>
@@ -36,7 +36,7 @@
                 <!-- ============== Item 2 ============================= -->
               <div class="col-md-4">
                 <div class="thumbnail" >
-                    <p class="mycenter"><img src="../images/cupcakes.jpg" alt="..."width="260" height="240"></p>
+                    <p class="mycenter"><img src="../images/cupcakes.jpg" alt="Picture of Tantalizing Cupcakes" width="260" height="240"></p>
                     <div class="caption">
                         <h3 class="mycenter">Cupcakes</h3>
                         <p class = "mycenter">Package of 12</p>
@@ -47,7 +47,7 @@
                 <!-- ============== Item 3============================= -->
               <div class="col-md-4">
                  <div class="thumbnail">
-                    <p class="mycenter"><img src="../images/donuts.jpg" alt="..."width="260" height="240"></p>
+                    <p class="mycenter"><img src="../images/donuts.jpg" alt="Picture of Appetizing Donuts" width="260" height="240"></p>
                     <div class="caption">
                         <h3 class="mycenter">Donuts</h3>
                         <p class = "mycenter">$1.00/ea</p>
