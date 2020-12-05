@@ -7,7 +7,6 @@
     h1 {
     padding-left: 25px;
     text-align: center;
-    padding-top 25px;
     }
     
     h2 {
@@ -17,10 +16,6 @@
     p {
     padding-left: 25px;
     }  
-        
-    div {
-    padding-top 25px;
-    }
            
    </style>
         
@@ -36,7 +31,7 @@
 <!-- ==========================  MAIN CONTENT ====================== -->
 <main>
     <?php include '../ssi/jumbotron.ssi'; ?>
-    <br><br><br><br><h1>Our References</h1><br><br>
+    <br><h1>Our References</h1><br><br>
     
     <div class="row">
         <div class="col-md-4">
