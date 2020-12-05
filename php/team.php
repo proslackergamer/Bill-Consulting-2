@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title> Walmart - Our Team</title>
+    <title>Walmart - Our Team</title>
     <?php include '../ssi/head.ssi'; ?> 
     <!-- Styles for this page only -->
     <style>
@@ -12,13 +12,12 @@
     }
     
     h3 {
-    text-align: center;
-    }
-    
+    padding-left: 25px;
+        }
+        
     p {
     padding-left: 25px;
     padding-right: 25px;
-    text-align: center;
     }  
     
     p2 {
@@ -28,10 +27,11 @@
     
     </style>
     
-        <!-- =============== Load an external font =================== -->
+     <!-- =============== Load an external font =================== -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    
 </head>
+   
+    
 
 <!-- =============== BODY SECTION =================== --> 
 <body>
@@ -41,14 +41,9 @@
      <main>
        <!-- ==========================  JUMBOTRON ====================== -->
        <!-- Main jumbotron for primary marketing message -->
-          <div class="jumbotron">
-            <div class="container">
-
-              <h2 class="display-3">The Changelog</h2>
-              <p2>Check out what we've done!</p2>
-
-            </div>
-          </div> 
+          <?php include '../ssi/jumbotron.ssi'; ?>
+         
+         
     <!-- This is a space to write a changelog for what each user has contributed -->
          <h1>Meet our team!</h1><br>
          <h3>What we've worked on:</h3>
