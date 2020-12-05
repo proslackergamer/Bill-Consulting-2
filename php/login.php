@@ -1,9 +1,10 @@
-<!-- ================== This page allows users to log into the web site ==================== -->
-<!-- ============================ SSI/PHP Code for Login Page ============================ -->
 <!doctype html>
 <html lang="en">
   <head>
     <?php include '../ssi/head.ssi'; ?>
+    <!-- ================== This page allows users to log into the web site ==================== -->
+    <!-- ============================ SSI/PHP Code for Login Page ============================ -->
+
     <title>Walmart Login</title>
       
       
