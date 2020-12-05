@@ -14,7 +14,7 @@
       <!-- ==========================  TOP MENU =========================== -->
  <?php include '../ssi/nav.ssi'; ?> 
        <!-- ==========================  MAIN CONTENT ====================== -->
-     <main role="main">
+     <main>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <?php include '../ssi/jumbotron.ssi'; ?> 
