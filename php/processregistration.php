@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <?php include '../ssi/head.ssi'; ?>
     <title>Walmart - Registration</title>
+    <?php include '../ssi/head.ssi'; ?>
     <!-- ===================== Custom styles for this page only ============ -->
       <style> 
           h1{
