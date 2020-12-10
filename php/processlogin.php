@@ -1,96 +1,68 @@
-<!-- ============================ SSI/PHP Code for Login Process Page ============================ -->
-
-<!-- start session -->
 <?php 
-   session_start(); 
-?>
+   // start session
+   session_start();
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <?php include '../ssi/head.ssi'; ?>
-    <title>Walmart Login</title>
-  </head>  
-    
 
-<body>      
-  <!-- ====================================== MENU =================================================== -->
-  <?php include '../ssi/nav.ssi'; ?>
-      
-      
-      <!-- ==================================== Content ========================================== -->
-      <main>
-        <!-- ==========================  JUMBOTRON ====================== -->
-        <!-- ======Main jumbotron for primary marketing message ============ -->
-          <?php include '../ssi/jumbotron.ssi'; ?>
+   if (!empty($_POST['inputEmail']) && !empty($_POST['inputPassword']))
+   {
+      // Variables for form email and password
+      $email = $_POST['inputEmail'];
+      $password = $_POST['inputPassword'];
+      $name = $_POST['inputName'];
+
+       
+      // test if email and password are correct
+      if(($email == "student@ferris.edu") && ($password == "bulldogs"))
+      {
+       // set session variables      
+       $_SESSION['sName'] = $name;
+       $_SESSION['sEmail'] = $email;
           
-                      
-          <div class="container">
-              <div class="col-md-12">
-                 <div class="thumbnail">
-                    
-                    <div class="caption">
-                        <h3 class="mycenter">Please login</h3>
-                        
-                        <?php                                 
-                            
-                            
-                            // Variables for form email and password
-                            $formEmail = $_POST['inputEmail'];
-                            $formPassword = $_POST['inputPassword']; 
+           
+       // set member session variable
+       $_SESSION['member'] = true;
+      
+          
+       // tell user they'll be directed to member page      
+       echo <<< memberPg
+       <html><head>
+       <script>
+           window.location = "../php/member.php";
+       </script>
+       </head>
+       <body>Test</body>
+       </html>
+       memberPg; 
+      }
+       
+      else
+      {
+          //echo " Invalid credentials. You will now be redirected to the login page. ";  
+     
+          // tell user they entered info wrong and will be directed to login page
+          echo <<< theEnd
+          <html><head>
+          <script>
+             alert("Invalid credentials. You will now be redirected to the login page.");
+             
+             window.location = "../pages/login.html";
+          </script>
+          </head>
+          <body>Test</body>
+          </html>
+          theEnd;
+          
+      }
+       
+   }
 
-                            echo htmlspecialchars($formEmail).' <br />';
-                            echo htmlspecialchars($formPassword).' <br />';  
-                            
-                            // test if email and password are correct
-                            if(($formEmail == "student@ferris.edu") && ($formPassword == "bulldogs"))
-                            {
-                                // set session variables
-                                $_SESSION["name"] = $name;
-                                $_SESSION["email"] = $formEmail;
-                                
-                                // store user's first and last name, which requires getting that input
-                                $name = readline("Enter your first and last name: ");
-                                echo "Thank you, " . $name;
-                                 
-                                // set member session variable
-                                $_SESSION["memeber"] = true;
-                                
-                                // redirect to member page
-                                header("Location: ../ssi/member.php");
-                                exit;
-                            }
-                        
-                            else
-                            {
-                                // I want an alert telling the user they didn't enter the infor correctly
-                                <script type="text/javascript">
-                                    echo alert("You didn't fill out the form properly and will therefore be redirected to the login page.");
-                                </script>
-                                
-                                // redirect to login page
-                                header("Location: ../ssi/login.php");
-                                exit;
-                            }
-                        
-                        ?>
-                        
-                    </div>
-                  </div>
-              </div>
-          </div>
-      </main>
-      
-      
-      
-      <!-- ========================================  Footer ===================================================== --> 
-      <?php include '../ssi/footer.ssi'; ?>
-    
-    
-<?php 
-  // end session
-  session_destroy();  
+  
+
 ?>
-    
-</body>    
-</html>
+
+     
+                        
+                            
+                        
+ 
+                        
