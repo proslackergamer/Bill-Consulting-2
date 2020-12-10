@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <title>Walmart - About</title>
         <?php include '../ssi/head.ssi'; ?>
     <!-- =============== Custom styles, this page only =================== -->
     <style>
