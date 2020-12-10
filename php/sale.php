@@ -17,11 +17,13 @@
        <!-- ==========================  JUMBOTRON ====================== -->
        <!-- Main jumbotron for a primary marketing message or call to action -->
            <?php include '../ssi/jumbotron.ssi'; ?>  
-       <!-- ============== Main Container ====================== --> 
+       
+        <!-- ============== Main Container ====================== --> 
           <div class="container">
               <h1>Sale</h1>
               <div style="text-align: center" class="row">
                     <div class="col-sm-4">
+        <!-- ============== Open File ====================== --> 
             <?php
               $target_dir = '../files/'; 
               $filename = "sale.txt";
@@ -30,19 +32,28 @@
               $count=0; 
               // READFILE Function
               $lines = file($filepath);
-                       
+           
+        /*<!-- ============== Open File ====================== --> */
               while($count <=7) {
-                echo ($lines[$count]) . "<br />\n";
+                  if($count ==1){
+                       echo ("<b>$lines[$count]</b>") . "<br />\n";
+                  }
+                  else if($count ==5){
+                       echo ("<b>$lines[$count]</b>") . "<br />\n";
+                  }
+                  else{
+                      echo ($lines[$count]) . "<br />\n";
+                  }
                 $count++;
                     if($count==4){
                         echo"<br />\n";
-                    }}
-                        
-
+                    }
+              }
               ?>
-                  
+        
                   </div>
                     <div class="col-sm-4">
+        <!-- ============== Open File ====================== --> 
             <?php
               $target_dir = '../files/'; 
               $filename = "sale.txt";
@@ -51,9 +62,17 @@
               $count=8; 
               // READFILE Function
               $lines = file($filepath);
-                       
+           /*<!-- ============== Column Two ====================== -->*/             
               while($count >=8 && $count<=15) {
-                echo ($lines[$count]) . "<br />\n";
+                  if($count ==9){
+                       echo ("<b>$lines[$count]</b>") . "<br />\n";
+                  }
+                  else if($count ==13){
+                       echo ("<b>$lines[$count]</b>") . "<br />\n";
+                  }
+                  else{
+                      echo ($lines[$count]) . "<br />\n";
+                  }
                 $count++;
                     if($count ==12){
                         echo"<br />\n";
@@ -64,6 +83,7 @@
                   
                   </div>
                     <div class="col-sm-4">
+            <!-- ============== Open File====================== --> 
             <?php
               $target_dir = '../files/'; 
               $filename = "sale.txt";
@@ -72,19 +92,20 @@
               $count=16; 
               // READFILE Function
               $lines = file($filepath);
-                       
+             /*<!-- ============== Column Three ====================== --> */     
               while($count >=16 && $count<=19) {
-                echo ($lines[$count]) . "<br />\n";
+                    if($count ==17){
+                       echo ("<b>$lines[$count]</b>") . "<br />\n";
+                  }
+
+                  else{
+                      echo ($lines[$count]) . "<br />\n";
+                  }
                 $count++;}
-              ?>
-                  
-                  
+              ?> 
                   </div>
               </div>
-              
-
-           <!-- ====================================================== -->
-           <!-- =================  Row 2 =================================== -->
+        
          <div class="row">
             <div class="col-md-6">
                
