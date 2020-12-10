@@ -2,6 +2,7 @@
 <html lang="en">
     
 <head>
+    <title>Walmart - Member</title>
     <?php include '../ssi/head.ssi'; ?>
     
     <!-- Styles for this page only --> 
