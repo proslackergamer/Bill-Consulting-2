@@ -2,6 +2,7 @@
 <html lang="en">
     
     <head>
+        <title>Walmart - Error</title>
          <?php include '../ssi/head.ssi'; ?>  
         
         <style> 
