@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <title>Walmart - Sale</title>
          <?php include '../ssi/head.ssi'; ?>  
         
         <style> 
