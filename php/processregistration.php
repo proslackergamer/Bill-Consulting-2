@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <?php include '../ssi/head.ssi'; ?>
+    <title>Walmart - Registration</title>
     <!-- ===================== Custom styles for this page only ============ -->
       <style> 
           h1{
