@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <title>Walmart - Login</title>
     <?php include '../ssi/head.ssi'; ?>
     <!-- ================== This page allows users to log into the web site ==================== -->
     <!-- ============================ SSI/PHP Code for Login Page ============================ -->
