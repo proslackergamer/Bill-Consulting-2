@@ -1,23 +1,13 @@
-<!doctype html>
-<html lang="en">
-    
-<head>
-    <title>Walmart - Member</title>
-    <?php include '../ssi/head.ssi'; ?>
-    
-    <!-- Styles for this page only --> 
-    <style>
-        .formcontrol {text-align: center;}
-    </style>
-   
-</head>
- <body>
-  <?php include '../ssi/nav.ssi'; ?>  
-    <main>
-    
-    
-    </main>
-   </body>
-  <?php include '../ssi/footer.ssi'; ?>
- </body>
-</html>
+<?php
+  include 'processLogin.php';
+  // THIS PAGE GOES WITH processLogin.php PAGE FOR LOGIN
+  
+         
+  // display custom message
+  echo "Welcome, " . $_SESSION['sName'] . '!';
+                
+  // redirect to home page
+  header("Location: ../pages/home.html"); 
+  exit();
+
+?>
