@@ -17,9 +17,6 @@
     p {
     padding-left: 25px;
     }  
-        
-    div {
-    }
            
    </style>
         
