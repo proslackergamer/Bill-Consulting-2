@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Walmart - About</title>
+        <title>Walmart - About Us</title>
         <?php include '../ssi/head.ssi'; ?>
     <!-- =============== Custom styles, this page only =================== -->
     <style>
@@ -17,6 +17,9 @@
     p {
     padding-left: 25px;
     }  
+        
+    div {
+    }
            
    </style>
         
@@ -44,6 +47,12 @@
             
             <h2>Cupcake Image</h2>
             <p>Cupcakes! XL. (n.d.). In Cupcakes! Bake &amp; Decorate by Maverick Software LLC. Retrieved from https://appadvice.com/app/cupcakes-bake-decorate/347362622</p>
+            
+            <h2>Blueberry Muffin Image</h2>
+            <p>Blueberry Muffins (2020, February 19). In Baker By Nature. Retrieved from https://bakerbynature.com/blueberry-muffins/</p>
+            
+            <h2>Strudel Image</h2>
+            <p>Spiced Fruit Strudel with Vanilla Cream. (n.d.). In Weight Watchers. Retrieved from https://www.weightwatchers.com/uk/recipe/spiced-fruit-strudel-with-vanilla-cream/5625c064c064e70f3477f0e0</p>
         </div>
         
         <div class="col-md-4">
@@ -56,6 +65,9 @@
         
             <h2>Banana Image</h2>
             <p>Bananas &amp; Plantains. (n.d.). In Foothills IGA. Retrieved from https://www.foothillsiga.com/shop/produce/fresh_fruit/bananas_and_plantains/d/235910</p>
+            
+            <h2>Brownie Image</h2>
+            <p>Brownie Recipe (2019, June 2). In Cooking Classy. Retrieved from https://www.cookingclassy.com/brownie-recipe/ </p>
         </div> 
         
         <div class="col-md-4">
@@ -64,15 +76,16 @@
         
             <h2>Cupcake Image</h2>
             <p>Chrisse (No last name given). (n.d.). Best Ever Chocolate Cupcakes from Scratch. In The Busy Baker. Retrieved from https://thebusybaker.ca/best-ever-chocolate-cupcakes-from-scratch/</p>
+            
+            <h2>Cake Image</h2>
+            <p>Arias, T. (2019, April 16). Best Birthday Cake. In Handle the Heat. Retrieved from https://www.handletheheat.com/best-birthday-cake/ </p>
+            
+            <h2>Scones Image</h2>
+            <p>Allen, L. (2020, March 11). Easy Homemade Scones. In Tastes Better From Scratch. Retrieved from https://tastesbetterfromscratch.com/classic-pastry-scones/</p>
         </div> 
-    </div>  
-    
-    
-
-
-        
+    </div>       
 </main>
- </body>
+</body>
     <!-- ===================== FOOTER ==================== -->
     <?php include '../ssi/footer.ssi'; ?>
 </html>
