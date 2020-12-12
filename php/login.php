@@ -63,7 +63,7 @@
                             </div>
                         <p>
                             <!-- <button class="btn btn-primary" style="height: auto; width: auto">Login</button> -->
-                            <input type="submit" class="btn btn-primary" style="height: auto; width: auto" value="Login" />
+                            <input type="submit" class="btn btn-primary" style="height: auto; width: auto" value="Login" onclick="processForm()" />
                         </p>
                         </form>
                     </div>
