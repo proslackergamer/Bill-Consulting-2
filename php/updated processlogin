@@ -24,7 +24,7 @@
       
           
        // tell user they'll be directed to member page      
-       if (smember ==true)
+       if ($_SESSION[smember] ==true)
            echo<<< memberPg
        <html><head>
        <script>
