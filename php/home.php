@@ -93,8 +93,7 @@
             </div>
 
         
-        </div>
-            <hr> 
+        </div> 
           </div> <!-- /container --> 
         </main>
 
