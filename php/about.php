@@ -65,6 +65,9 @@
             
             <h2>Brownie Image</h2>
             <p>Brownie Recipe (2019, June 2). In Cooking Classy. Retrieved from https://www.cookingclassy.com/brownie-recipe/ </p>
+            
+            <h2>Various Bits of Code</h2>
+            <p>Kalata, K. (n.d.). ISYS 288 - Web Application Development. In Ferris State University. Retrieved from https://ferris.instructure.com/courses/9542</p>
         </div> 
         
         <div class="col-md-4">
