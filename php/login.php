@@ -2,7 +2,7 @@
 <!-- ============================ PHP Code for Login Page ============================ -->
 <html lang="en">
   <head>
-    <?php include '../ssi/loginHead.ssi'; ?>
+    <?php include '../ssi/head.ssi'; ?>
     <title>Walmart Login</title>
       
       
@@ -35,7 +35,7 @@
       <main>
         <!-- ==========================  JUMBOTRON ====================== -->
         <!-- ======Main jumbotron for primary marketing message ============ -->
-          <?php include '../ssi/loginJumbotron.ssi'; ?>
+          <?php include '../ssi/jumbotron.ssi'; ?>
           
                       
           <div class="container">
@@ -58,7 +58,7 @@
                             
                             <div class="checkbox mb-3">
                                 <label>
-                                    <input type="checkbox" value="remember-me"> Remember me
+                                    <input type="checkbox" value="remember-me" id="remember" name="remember"> Remember me
                                 </label>
                             </div>
                         <p>
