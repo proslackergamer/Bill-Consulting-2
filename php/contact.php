@@ -46,23 +46,32 @@
                         <h3 class="mycenter">Enter your info</h3>
                         
                         <form>
+			    <p style = "text-align:center;font-size:16pt;">
                             <label for="inputName" class="sr-only" style="box-sizing: border-box; padding: 10px">Name</label>
                             <input type="name" id="inputName" placeholder="Name" required style="margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br>
 
                             <label for="inputEmail" class="sr-only" style="box-sizing: border-box; padding: 10px">Email address</label>
                             <input type="email" id="inputEmail" placeholder="Email address" required autofocus style="margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br>
-                            
-                            <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
-					           <textarea class="input100" name="message" placeholder="Your Message" required></textarea><br>
-					           <span class="focus-input100"></span>
+			    </p>
+				
+                            <div class="mycenter">
+				    <p style = "text-align:center;font-size:16pt;">
+					           <textarea class="input100" style = "width:245px; height: 100px; border-box; border: 2px solid black; name="message" placeholder="Your Message" required></textarea><br>
+				    </p>
                             </div>
                         </form>
                         <p>
                             <br>
-                            <button class="btn btn-primary" style="height:auto; width: auto" type="submit">Send Email</button>   
+			    <p style = "text-align:center;font-size:16pt;">
+                            <button class="btn btn-primary" style="height:auto; width: auto" type="submit">Send Email</button> 
+			    </p>
+													  
                         </p>                        
                         <div class="contact100-more">
+				<br>
+				<p style = "text-align:center;font-size:16pt;">
 				            Contact our 24/7 call center: <span class="contact100-more-highlight">+1 800 123 4567</span>
+				</p>
 			            </div>
                     </div>
                   </div>
