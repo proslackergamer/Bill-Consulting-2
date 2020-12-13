@@ -1,10 +1,12 @@
-<!-- Has a form to contact the web site company -->
-<!-- ========================== Code for Contact Page ================================ -->
 <!DOCTYPE html>
+<!-- ===================== Has a form to contact the web site company ================== -->
+<!-- ========================== PHP Code for Contact Page ================================ -->
 <html lang="en">
 <head>
-    <title>Walmart - Contact</title>
-    <?php include '../ssi/head.ssi'; ?> 
+    <?php include '../ssi/contactHead.ssi'; ?>
+    <title>Walmart Contact </title>
+
+<!-- ===================== Styles for this specific page =========================== -->
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -24,20 +26,19 @@
   </head>
     
 
-      
+<body>  
   <!-- ====================================== MENU =================================================== -->
-  <?php include '../ssi/nav.ssi'; ?> 
+   <?php include '../ssi/nav.ssi'; ?>
+      
       
       <!-- ==================================== Content ========================================== -->
       <main>
-      <body>
         <!-- ==========================  JUMBOTRON ====================== -->
         <!-- ======Main jumbotron for primary marketing message ============ -->
-          <?php include '../ssi/jumbotron.ssi'; ?>  
+          <?php include '../ssi/contactJumbotron.ssi'; ?>
         
           
-          
-        <form class="form-contact">                
+                         
           <div class="container">
               <div class="col-md-12">
                  <div class="thumbnail">
@@ -45,22 +46,23 @@
                     <div class="caption">
                         <h3 class="mycenter">Enter your info</h3>
                         
-                        <form>
+                      <form class="form-contact">
                             <label for="inputName" class="sr-only" style="box-sizing: border-box; padding: 10px">Name</label>
-                            <input type="name" id="inputName" placeholder="Name" required style="margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br>
+                            <input type="text" id="inputName" name="inputName" placeholder="Name" required autofocus style="margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br>
 
                             <label for="inputEmail" class="sr-only" style="box-sizing: border-box; padding: 10px">Email address</label>
-                            <input type="email" id="inputEmail" placeholder="Email address" required autofocus style="margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br>
+                            <input type="email" id="inputEmail" name="inputEmail" placeholder="Email address" required style="margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br>
                             
-                            <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
-					           <textarea class="input100" name="message" placeholder="Your Message" required></textarea><br>
+                            <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+					           <textarea class="input100" name="message" id="message" placeholder="Your Message" required></textarea><br>
 					           <span class="focus-input100"></span>
                             </div>
-                        </form>
                         <p>
                             <br>
-                            <button class="btn btn-primary" style="height:auto; width: auto" type="submit">Send Email</button>   
-                        </p>                        
+                             <!-- <button class="btn btn-primary" style="height: auto; width: auto">Send Email</button> -->
+                            <input type="submit" class="btn btn-primary" style="height: auto; width: auto" value="Send Message" /> 
+                        </p> 
+                       </form>
                         <div class="contact100-more">
 				            Contact our 24/7 call center: <span class="contact100-more-highlight">+1 800 123 4567</span>
 			            </div>
@@ -68,13 +70,12 @@
                   </div>
               </div>
           </div>
-        </form>
-        </body>
     </main>
       
       
       
       <!-- ========================================  Footer ===================================================== --> 
-    <?php include '../ssi/footer.ssi'; ?>   
-            
+      <?php include '../ssi/footer.ssi'; ?>
+    
+  </body>          
 </html>
