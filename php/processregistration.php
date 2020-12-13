@@ -39,7 +39,7 @@
                                 $formPassword = $_POST['inputPassword'];
                             
                                 //hardcoded statements
-                                $statement = "You have been registered successfully with the following information>> ";
+                                $statement = "You have been registered successfully with the following information ";
                                 $address = "Address: ";
                                 $city = "City: ";
                                 $apartment = "Apartment: ";
